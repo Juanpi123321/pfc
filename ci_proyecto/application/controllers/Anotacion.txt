@@ -1,0 +1,62 @@
+function listar_libros()
+$this->load->library('pagination');
+
+$config['base_url']=base_url().'pagination_cotroller/listar_libros/';
+
+$config['first_link']='Primero';
+$config['prev_link']='Anterior';
+$config['last_link']='Ultimo';
+$config['next_link']='Siguiente';
+
+$config['total_rows']=count($this->libro_model->select_libros());
+$config['per_page']=2;
+$config['num_links']=2;
+$config["uri_segment"]=3;
+
+$this->paginatino->initialize($config);
+$page=$this->uri->segment(3);
+
+$data['libro'] = $this->libro_model->paginas_mostrar(2,$page);
+
+$this->load->view('plantillas/header');
+$this->load->view(pagina);
+
+
+
+En la vista
+donde termina la tabla
+</table>
+<?php echo $this->pagination->create_links();?>
+
+
+En el modelo
+public function select_libros(){
+	$query=$this->db->get('libro');
+	return $query
+
+function paginas_mostrar($limit,$row){
+	$query=$this->db->get('libro',$limit,$row);
+	return $query->result();
+
+o esta
+abajo del from
+$this->db->$limit($limit,$row);
+
+
+
+Integracion con boostrap
+$config['full_tag_open'] = '<ul class="pagination">';
+$config['full_tag_close'] = '</ul>';
+$config['num_tag_open'] = '<li>';
+$config['num_tag_close'] = '</li>';
+$config['cur_tag_open'] = '<li class="active"><span>';
+$config['cur_tag_close'] = '<span></span></span></li>';
+$config['prev_tag_open'] = '<li>';
+$config['prev_tag_close'] = '</li>';
+$config['next_tag_open'] = '<li>';
+$config['next_tag_close'] = '</li>';
+$config['first_tag_open'] = '<li>';
+$config['first_tag_close'] = '</li>';
+$config['last_tag_open'] = '<li>';
+$config['last_tag_close'] = '</li>'; 
+

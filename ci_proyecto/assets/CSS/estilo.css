@@ -1,0 +1,199 @@
+.pie{
+	background: darkred;
+	color: ghostwhite;
+	height: 52px;
+	padding-top: 20px;
+	bottom: 0;
+}
+.letra-1{
+	font-size: 1.2em;
+}
+.slide-width{
+	width: 70%;
+}
+.enlace-menu2{
+	margin-left: 10px;
+	color: ghostwhite;
+}
+/*centrar columnas*/
+.col-center{
+    float: none;
+    margin: 0 auto;
+}
+/*para centrar cualquier elemento*/
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.margen-comprar{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.margen-comprar2{
+    margin-left: 110px;
+    margin-top: -60px;
+}
+.navbar-logo {
+  height: 50px;
+  padding: 10px 10px; 
+}
+/*fondo de la barra*/
+nav.navbar{
+	background: black;
+	margin-bottom: 0;
+	border:none;
+	border-style: none;	
+	border-radius: 0;
+}
+/*los elementos de la barra*/
+.navbar-default .navbar-nav > li > a{
+    color: ghostwhite;
+    margin-left: 0.8px;
+}
+/*navbar de administrativo*/
+nav.navbar-admin, .navbar-admin .dropdown-menu > li > a,
+.navbar-admin .dropdown-menu, .navbar-admin .open .dropdown-menu > li > a,
+.dropdown-menu > li > a, .dropdown-menu,
+.navbar-admin .navbar-nav .open .dropdown-menu > li > a
+{
+    background: ghostwhite;
+    color: black;
+}
+/*los elementos de la barra administrativo*/
+.navbar-admin .navbar-nav > li > a{
+    color: black;
+}
+/*cuando hacemos hover sobre algun elemento de la barra, o si lo abrimos*/
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+/*activo y hover activo*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+/*para la sublista tambien*/
+.dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+	background: darkred;
+	transition: .8s;
+	color: ghostwhite;
+}
+/*la sublista*/
+.dropdown-menu > li > a, .dropdown-menu,
+.navbar-nav .open .dropdown-menu > li > a{
+	background: black;
+	color: ghostwhite;
+    padding: 8px 10px;
+}
+/*xq quedaba muy al borde*/
+.margen-boton-navbar{
+	margin-right: 1%;
+}
+/*mas ancha el dropdown de sesion*/
+.navbar-right .dropdown-menu {
+    right: 0px;
+    left: auto;
+    width: 250px;
+}
+/*color del boton Ingresar cuando le haces click, hover, cuando tenes apretado, etc*/
+.btn-primary, .btn-primary:focus, .btn-primary.focus, .btn-primary.active:focus, .btn-primary:active:focus,
+.open > .dropdown-toggle.btn-primary{
+	color: white;
+	background: #BB1717;
+	border: none;
+}
+/*color del boton ingresar en hover*/
+ .btn-primary:hover, 
+.btn-primary.active:hover, .btn-primary:active:hover{
+	color: white;
+	background: #9C1717;
+	border: none;
+}
+/*cambiar el color de pagination*/
+.pagination > .active > a, .pagination > .active > span,
+.pagination > .active > a:hover, .pagination > .active > span:hover, 
+.pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #BB1717;
+    border-color: white;    
+}
+.pagination > li > a, .pagination > li > span {
+    color: black;
+}
+.pagination > li > a:hover, 
+.pagination > li > span:hover, .pagination > li > a:focus, 
+.pagination > li > span:focus{
+    color: white;
+    background-color: #BB1717;
+    border-color: white;
+}
+
+/*el menu de moviles tambien para tablets*/
+.navbar-sm{
+
+}
+/*ubicacion de la ventana modal*/
+.modal-dialog{
+    margin-right: 1%;
+    margin-top: 1%;
+}    
+.fondo-principal{
+	background: black;
+}
+.fondo-1{
+	background: white;
+}
+.titulo{
+	background: darkred;
+	color: ghostwhite;
+}
+.fondo-2{
+	background: #EAE9E8;
+}
+.margen-izq{
+	margin-left: 10px;
+}
+.margen-der{
+	margin-right: -35px;
+}
+.text-grande{
+	font-size: 120%;
+}
+/*para que en resolucion de tablet tome como mobile*/
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important; /*para que tome precedencia sobre otras reglas*/
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}

@@ -37,11 +37,9 @@
 					<label class="control-label">Forma de pago:&nbsp</label>
 					<?php $opciones = array(
 					        '0'         => 'Seleccione una opcion',
-					        '1'         => 'Efectivo',
-					        '2'         => 'Transferencia o Deposito Bancario',
-					        '3'			=> 'Tarjeta de Credito',
-					        '4'			=> 'Tarjeta de Debito',
-					        '5'			=> 'MercadoPago',
+					        '1'         => 'Efectivo (Pago en sucursal)',					        
+					        '2'			=> 'MercadoPago',
+					        '3'			=> 'Contraentrega'
 							);
 					echo form_dropdown('forma_pago', $opciones, '0');	?>
 					<br><br>

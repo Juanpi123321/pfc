@@ -1,0 +1,28 @@
+OneDrive y Google Drive como hosting
+
+https://www.youtube.com/watch?v=9fZXfed45ws
+
+
+Subir Proyecto de Codeigniter a 000webhost
+https://www.youtube.com/watch?v=uH8dKAcMMWM
+
+
+----------------------------------------------------
+https://ci-proyecti.000webhostapp.com/ci_proyecto/ |
+----------------------------------------------------
+
+Usuario de Base de Datos
+id5220294_root		123321
+
+Nombre de Base de Datos	
+id5220294_pcgamer_db
+
+
+Google Analytics
+nombre: pfc
+
+ID de seguimiento
+UA-116573257-1
+
+
+pcgamer-no-contestar@hotmail.com

@@ -2,7 +2,7 @@
 	<!-- pie -->
 	<footer class="pie text-center">
 		<div class="hidden-xs">
-			<p>&#169 2017 Juanpi Gallardo Front-End Developer. All rights reserved.</p>
+			<p>&#169 2018 Juanpi Gallardo Front-End Developer. All rights reserved.</p>
 		</div>
 		<div class="visible-xs">
 			<p class="small">&#169 2017 Juanpi Gallardo Front-End Developer.</p>

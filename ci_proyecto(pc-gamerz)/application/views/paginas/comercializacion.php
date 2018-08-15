@@ -40,7 +40,7 @@
 						<p><b>¿Puedo ir a local a retirar mi compra personalmente o enviar a alguien?</b></p>
 						<p>Sí poder retirar tu compra personalmente o enviar a alguien. Y en el caso de que la compra este ya pagada anteriormente la persona que retira tiene que venir con los datos del pedido y su DNI (que es el único documento válido) para retirar.</p>
 						<p><b>Aún no puede resolver mi consultar. ¿Donde puedo contactarme?</b></p>
-						<p>Podes comunicarte con nosotros por mail a <a href='pcgamer@hotmail.com'>pcgamer@hotmail.com</a> o telefónicamente al <b>3794221129</b> en los horarios de atención al público.</p><br><br>
+						<p>Podes comunicarte con nosotros por mail a <a href='pcgamerz@hotmail.com'>pcgamerz@hotmail.com</a> o telefónicamente al <b>3794221129</b> en los horarios de atención al público.</p><br><br>
 				</div>
 			</div>
 		</div>

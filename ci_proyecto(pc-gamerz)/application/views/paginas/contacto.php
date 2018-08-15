@@ -15,7 +15,7 @@
 					<div class="form-horizontal">
 						<div class="form-group">
 							<p><span class="glyphicon glyphicon-inbox"></span>
-							&nbspE-mail: pcgamer@hotmail.com</p>
+							&nbspE-mail: pcgamerz@hotmail.com</p>
 							<p><span class="glyphicon glyphicon-earphone"></span>
 							&nbspTelefonos: (379) 4221129</p>
 							<p><span class="glyphicon glyphicon-calendar"></span>

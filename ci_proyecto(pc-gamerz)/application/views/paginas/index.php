@@ -16,21 +16,21 @@
 						    <div class="item active">
 						      	<img src="<?php echo base_url(); ?>assets/img/slider-1.jpg" class="img-responsive" alt="">
 						      	<div class="carousel-caption">
-						      		<h3>Bienvenido a PC-GAMER</h3>
+						      		<h3>Bienvenido a Pc-GamerZ</h3>
 						      		<p>Una empresa Argentina, dedicada a la comercialización de productos de tecnología</p>
 						      	</div>
 						    </div>
 						    <div class="item">
 						      <img src="<?php echo base_url(); ?>assets/img/slider-2.jpg" class="img-responsive" alt="">
 						      <div class="carousel-caption">
-						      		<h3>Bienvenido a PC-GAMER</h3>
+						      		<h3>Bienvenido a Pc-GamerZ</h3>
 						      		<p>Una empresa Argentina, dedicada a la comercialización de productos de tecnología</p>
 						      	</div>
 						    </div>
 						    <div class="item">
 						      <img src="<?php echo base_url(); ?>assets/img/slider-3.jpg" class="img-responsive" alt="">
 						      <div class="carousel-caption">
-						      		<h3>Bienvenido a PC-GAMER</h3>
+						      		<h3>Bienvenido a Pc-GamerZ</h3>
 						      		<p>Una empresa Argentina, dedicada a la comercialización de productos de tecnología</p>
 						      	</div>
 						    </div>
@@ -47,7 +47,7 @@
 					<br>
 				</div>
 				<div class="col-xs-10 col-sm-5 col-md-5 col-lg-5">
-					<p class="text-justify letra-1 margen-der"><br><br>En <b>Pc-Gamer</b> disponemos de una gama de pcs optimizados para satisfacer a todo tipo usuarios. Desde los que forman parte del mundo gaming más exigente, hasta los que simplemente quieren un ordenador o pc gaming barato para disfrutar de un gran rendimiento en videojuegos. Nuestros equipos están totalmente construidos para obtener un gran rendimiento a un precio ajustado. Sus componentes han sido testeados detenidamente por nuestros expertos para conseguir una óptima configuración y un perfecto funcionamiento.</p>
+					<p class="text-justify letra-1 margen-der"><br><br>En <b>Pc-GamerZ</b> disponemos de una gama de pcs optimizados para satisfacer a todo tipo usuarios. Desde los que forman parte del mundo gaming más exigente, hasta los que simplemente quieren un ordenador o pc gaming barato para disfrutar de un gran rendimiento en videojuegos. Nuestros equipos están totalmente construidos para obtener un gran rendimiento a un precio ajustado. Sus componentes han sido testeados detenidamente por nuestros expertos para conseguir una óptima configuración y un perfecto funcionamiento.</p>
 				</div>
 			</div>
 			<br><br><br><br>

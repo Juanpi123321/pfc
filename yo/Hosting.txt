@@ -11,6 +11,9 @@ https://www.youtube.com/watch?v=uH8dKAcMMWM
 https://ci-proyecti.000webhostapp.com/ci_proyecto/ |
 ----------------------------------------------------
 
+https://files.000webhost.com
+Para modificar archivos.
+
 Usuario de Base de Datos
 id5220294_root		123321
 

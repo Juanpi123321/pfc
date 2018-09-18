@@ -1,0 +1,11 @@
+--------Administrador---------
+Usuario: 	admin
+Contraseña:	admin123
+
+--------Cliente---------------
+Usuario: 	andrea
+Contraseña:	andrea12
+
+--------Empleado--------------
+Usuario:	damian
+Contraseña:	damian12

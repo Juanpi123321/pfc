@@ -1,0 +1,8 @@
+Obtener la url actual de una página web con PHP
+Ejemplo más completo (ejemplo2) que el anterior para obtener la url de una página web:
+
+$host= $_SERVER["HTTP_HOST"];
+$url= $_SERVER["REQUEST_URI"];
+echo "http://" . $host . $url;
+
+Tal y como veis en el ejemplo, primero sacamos el dominio y despues la url relativa, así obtenemos de una manera sencilla la url.

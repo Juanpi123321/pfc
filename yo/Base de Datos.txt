@@ -1,0 +1,14 @@
+productos
+descripcion
+• Intel Core i5 3.0GHz<br>
+• Seagate BarraCuda 3.5" 1TB<br>
+• MSI GTX 1060 GAMING GDDR5 <br>
+• G.Skill Aegis DDR4 2133 16GB<br>
+
+
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
